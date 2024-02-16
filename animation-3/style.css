@@ -1,0 +1,32 @@
+div{
+
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+animation: 500ms   ease-in infinite alternate gravity;
+}
+div img{
+
+    width: 150px;
+    height: 150px;
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+animation: rotate 500ms infinite linear;
+} 
+@keyframes gravity{
+
+
+    100%{ 
+
+        transform: translateY(470px);
+    }
+}
+@keyframes rotate{
+
+
+    100%{
+
+
+        transform: rotateZ(360deg);
+    }
+}

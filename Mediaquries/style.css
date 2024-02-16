@@ -1,0 +1,41 @@
+section{
+
+    margin: 40px auto;
+
+    width: 75vw;
+padding: 10px;
+    border: 2px solid rgb(215, 213, 213);
+    background-color:rgb(225, 225, 225) ;
+}
+h1,p{
+
+    text-align: center;
+}
+h1{
+
+    font-size: 3rem;
+}
+@media (max-width: 850px) {h1{
+font-size: 2rem;
+  }
+}
+@media (max-width: 580px) {h1{
+font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {h1,p{
+font-size: 1rem;
+  }
+}
+@media screen  and ( orientation:lanscape),(max-width:645px){
+
+  h1{
+
+color: tomato;
+text-shadow: 2px 3px 2px blue;
+
+text-transform: uppercase
+
+  }
+  
+}

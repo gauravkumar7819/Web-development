@@ -1,0 +1,27 @@
+div{
+
+    height: 250px;
+    width: 250px;
+    border-top: 10px solid black;
+    border-left:10px solid green ;
+    border-right: 10px solid yellow;
+    border-bottom: 10px solid greenyellow;
+    margin: 40px auto;
+    border-radius: 50%;
+    
+animation: rotate 500ms infinite linear;
+}
+body{display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@keyframes rotate{
+
+
+    100%{
+
+
+        transform: rotateZ(360deg);
+    }
+}

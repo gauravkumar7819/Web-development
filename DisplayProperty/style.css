@@ -1,0 +1,29 @@
+h1{
+
+    color: blue;
+    background-color: aqua;
+    border: 2px solid red;
+    display: inline;
+
+    height: 20px;
+    width: 30px;
+margin: 10px 10px auto;
+/* padding: 10px 10px 10px 10px; */
+}
+span{
+    color:green;
+    background-color: aqua;
+    border: 2px solid black;
+display: block;
+height: 200px;
+width: 300px;
+margin: 10px 10px auto;
+padding: 10px 10px 10px 10px; 
+
+}
+div{
+
+    margin:10px 10px auto;
+padding: 10px 10px 10px 10px ;
+    display: inline-block;
+}

@@ -1,0 +1,16 @@
+section{
+height: 80vh;
+width: 80vw;
+margin: 40px ;
+    background-color:aliceblue;
+}
+ul li{
+    list-style:"\1F96D" ;
+list-style: inside;
+
+}
+li{
+    background-color: antiquewhite;
+ margin: 2px auto;
+    border: 1px solid black;
+}

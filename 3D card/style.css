@@ -1,0 +1,49 @@
+div{
+
+    height: 300px;
+    width: 300px;
+    border: 2px solid grey;
+
+}
+body{
+
+    perspective: 800px;
+}
+.di{
+    margin: 30px auto ;
+
+    position: relative;
+  }
+  .A , .B{
+    position: absolute;
+       backface-visibility: hidden;
+   }
+.A{
+  
+    background-color: rgb(244, 160, 188);
+z-index: 3;
+
+}
+
+.B{
+
+
+
+    background-color: palegreen;
+
+    z-index: 2;
+    /* transform: rotate(180deg); */
+    transform: rotateY(180deg);
+}
+
+.di:hover{
+    transition: 2s;
+    transform-style: preserve-3d;
+cursor: pointer;
+    transform: rotateY(180deg);
+}
+div img{
+
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,16 @@
+/* Start with */
+a[href^="http"]{
+
+    color: aqua;
+}
+/* EndWith */
+
+a[href$="org"]{
+    color: brown;
+
+}
+/* Present any where */
+a[href*="coding"]{
+
+    color: green;
+}
